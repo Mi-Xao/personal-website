@@ -1,0 +1,41 @@
+.home-page {
+  grid-column: span 12;
+  grid-row: 5/12;
+  text-align: center;
+  line-height: 15px;   /* within paragraph */
+}
+
+.intro {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(254, 167, 182);
+  animation: 2s anim-lineUp ease-out;
+}
+
+.name {
+  font-size: 70px;
+  color: rgb(224, 111, 111);
+  animation: 4s anim-lineUp ease-out;
+}
+
+.tulip {
+  animation: 6s anim-tulip ease-out;
+}
+
+@keyframes anim-tulip {
+  0% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}

@@ -1,0 +1,152 @@
+.page-project {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.project-layout {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  color: rgb(255, 117, 140);
+}
+
+.back {
+  grid-column: span 12;
+  text-decoration: none;
+  color: rgb(184, 43, 67);
+  font-size: 15px;
+  padding: 15px;
+}
+
+.layout-title {
+  grid-column: span 12;
+  text-align: center;
+  padding: 20px;
+  font-size: 45px;
+  animation: 1s anim-transition ease-out;
+  font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
+  font-weight: bold;
+}
+
+.slideshow-container {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.layout-img {
+  grid-column: span 12;
+  max-width: 100%;
+  animation: 1s anim-transition ease-out;
+}
+
+.slide-buttons {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  text-align: center;
+  font-size: 25px;
+  cursor: default;
+  user-select: none;
+  color: rgb(184, 43, 67);
+}
+
+.prev {
+  grid-column: 1/2;
+}
+
+.next {
+  grid-column: 12/13;
+}
+
+.dots {
+  grid-column: 2/12;
+  display: flex;
+  margin: 0 auto;
+}
+
+.active-dot {
+  color: rgb(184, 43, 67);
+}
+
+.dot {
+  color: rgb(228, 198, 203);
+}
+
+.proj-info {
+  animation: 1s anim-transition ease-out;
+}
+
+.layout-link {
+  padding: 20px 20px 0;
+  grid-column: span 12;
+  font-size: 20px;
+}
+
+.layout-desc {
+  grid-column: span 12;
+  padding: 20px;
+  font-size: 25px;
+  color: rgb(161, 31, 52);
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .page-project {
+    grid-auto-rows: 100px;
+  }
+
+  .project-layout {
+    grid-column: 1/6;
+  }
+
+  .back {
+    padding: 30px;
+  }
+
+  .layout-title {
+    grid-column: 2/10;
+  }
+
+  .layout-img {
+    grid-column: 3/11;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 0.2);
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slide-buttons {
+    padding: 10px;
+    grid-column: 3/11;
+  }
+
+  .layout-link {
+    grid-column: 3/11;
+  }
+  
+  .layout-desc {
+    grid-column: 6/13;
+    grid-row: 1/9;
+    font-size: 30px;
+    padding: 100px 100px 100px 0;
+    overflow: auto;
+  }
+}
+
+@keyframes anim-transition {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
