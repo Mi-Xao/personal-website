@@ -2,7 +2,7 @@
   "name": "perweb",
   "version": "0.1.0",
   "homepage": "https://mi-xao.github.io/personal-website",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
