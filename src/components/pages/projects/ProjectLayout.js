@@ -57,9 +57,6 @@ function ProjectLayout(props) {
           <div className='next' onClick={handleRight}>&#10095;</div>
         </div>
       </div>
-      <div className='proj-info layout-link'>
-        <a target='_blank' rel='noreferrer' href={props.link}>github link</a>
-      </div>
     </div>
   );
 }

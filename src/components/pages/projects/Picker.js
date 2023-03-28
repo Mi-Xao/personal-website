@@ -16,7 +16,6 @@ function Picker() {
         img1={pickergif1}
         img2={pickergif2}
         img3={pickergif3}
-        link='https://google.com'
       />
       <div className='proj-info layout-desc'>
       A date picker that shows the user the current date on a calendar, while also allowing the user to select a different date as the current date.

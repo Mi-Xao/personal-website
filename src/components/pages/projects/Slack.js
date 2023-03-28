@@ -16,7 +16,6 @@ function Slack() {
         img1={slackgif1}
         img2={slackgif2}
         img3={slackgif3}
-        link='https://google.com'
       />
       <div className='proj-info layout-desc'>
       A Slack style messaging system, as a Single Page Full Stack Web App using the NERP Stack: Node.js, Express, React, and PostgreSQL, plus Material-UI.

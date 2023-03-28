@@ -78,12 +78,6 @@
   animation: 1s anim-transition ease-out;
 }
 
-.layout-link {
-  padding: 20px 20px 0;
-  grid-column: span 12;
-  font-size: 20px;
-}
-
 .layout-desc {
   grid-column: span 12;
   padding: 20px;

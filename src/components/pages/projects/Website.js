@@ -16,7 +16,6 @@ function Website() {
         img1={bakerygif1}
         img2={bakerygif2}
         img3={bakerygif3}
-        link='https://google.com'
       />
       <div className='proj-info layout-desc'>
       A fake company website to display the bakery’s information, such as the bakery’s menu, about page, and contact information.
